@@ -1,0 +1,106 @@
+body{
+    background: linear-gradient(25deg,#ffd506,#9de000);
+    text-align: center;
+    margin-top: 120px;
+}
+.container{
+   
+    background-color: #caec7c;
+    border-radius: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 0 0 40px rgba(rgb(5, 180, 148), rgb(180, 234, 180), rgb(208, 235, 175), alpha);
+}
+
+.title{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.Stop_Watch{
+    font-size: 70px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 20px ;
+    position: relative;
+    margin-right: 210px;
+    margin-left:210px;
+    animation: pulse 1.5s infinite alternate;
+  
+}
+.timer span{
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+}
+@keyframes pulse{
+    from{
+          transform: scale(1);
+    }
+    to{
+          transform: scale(1.05);
+    }
+}
+.buttons{
+    font-size: 90px;
+   
+}
+#start{
+    color: black;
+    font-size: 30px;
+    background-color: #fceb00;
+    border-radius: 10px;
+
+}
+#stop{
+    
+    color: black;
+    font-size: 30px;
+    background-color: #fceb00;
+    border-radius: 10px;
+
+}
+#pause{
+    color: black;
+    font-size: 30px;
+    background-color: #fceb00;
+    border-radius: 10px;
+}
+#reset{
+    color: black;
+    font-size: 30px;
+    background-color: #fceb00;
+    border-radius: 10px;
+}
+#start:hover{
+    background-color: #ec8600;
+}
+#stop:hover{
+    background-color: #ec8600;
+}
+#reset:hover{
+    background-color: #ec8600;
+}
+#pause:hover{
+    background-color: #ec8600;
+}
+.head2{
+    font-size: 40px;
+}
+#lap{
+    font-size: 20px;
+    background-color: whitesmoke;
+ 
+    margin-right: 320px;
+    margin-left:310px;
+}
+ul{
+    padding: 1rem;
+    border-bottom: 1px solid yellow;
+}
+ul:last-child{
+border-bottom: none;
+}
+ul span{
+    font-weight: 700;
+}
